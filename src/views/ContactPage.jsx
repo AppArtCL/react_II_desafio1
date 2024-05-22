@@ -12,7 +12,7 @@ const ContactPage = () => {
 		e.preventDefault();
 		console.log("Email:", email);
 		console.log("Consulta:", description);
-		navigate("/thankyou");
+		navigate("/react_II_desafio1/thankyou");
 	};
 
 	return (

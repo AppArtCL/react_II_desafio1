@@ -13,9 +13,9 @@ function App() {
     <div>
       <Navigation />
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
-        <Route path="/contacto" element={<ContactPage />}></Route>
-        <Route path="/thankyou" element={<ThankYou />}></Route>
+        <Route path="/react_II_desafio1/" element={<HomePage />}></Route>
+        <Route path="/react_II_desafio1/contacto" element={<ContactPage />}></Route>
+        <Route path="/react_II_desafio1/thankyou" element={<ThankYou />}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </div>
